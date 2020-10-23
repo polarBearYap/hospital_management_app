@@ -1,7 +1,7 @@
 # Hospital Management Application
 Java Project on Hospital Management System
 
-The GUI program can be downloaded in the releases section.
+The GUI program can be downloaded in the [releases](https://github.com/polarBearYap/hospital_management_app/releases/tag/v1.0) section.
 
 ## Learning objectives
 1. To familiarize myself with OOP concepts using Java.
