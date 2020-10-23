@@ -7,6 +7,10 @@ The GUI program can be downloaded in the releases section.
 1. To familiarize myself with OOP concepts using Java.
 2. To learn some basic & general concepts, philosophy and principles about UX design. 
 
+## IDE/Plug-in used
+- Eclipse SDK Version 2020-09 (4.17)
+- [e(fx)clipse (JavaFX Tooling and Runtime for Eclipse and OSGi)](https://www.eclipse.org/efxclipse/index.html)
+
 ## List of Dependencies used
 - Java SE 8
 - JavaFX 8
@@ -28,4 +32,4 @@ The GUI program can be downloaded in the releases section.
 1. Input validation
 2. Autocompletion
 
-![](hms_demo1.gif)
+![](hms_demo2.gif)
