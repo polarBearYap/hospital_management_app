@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" stylesheets="@../css/MainMenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.MainMenuController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" styleClass="main-background" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label styleClass="welcome" text="Welcome     to     HMS">
+               <font>
+                  <Font size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="main-background" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <Label fx:id="timeDisplay" styleClass="time" text="Time">
+               <font>
+                  <Font name="Arial Narrow" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateDisplay" prefHeight="47.0" prefWidth="277.0" styleClass="date" text="Date" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Narrow" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="subBackground" prefHeight="200.0" prefWidth="200.0" styleClass="sub-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="250.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="300.0">
+         <children>
+            <JFXButton fx:id="staffButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#ff4800" text="Staff">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button1" />
+               </styleClass>
+            </JFXButton>
+            <JFXButton fx:id="doctorButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#0059ff" text="Doctor">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button2" />
+               </styleClass>
+            </JFXButton>
+            <JFXButton fx:id="patientButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#f88000" text="Patient">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button3" />
+               </styleClass>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+         <children>
+            <JFXButton fx:id="medicalButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#bec61f" text="Medical">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button4" />
+               </styleClass>
+            </JFXButton>
+            <JFXButton fx:id="labButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#146b6b" text="Laboratory">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button5" />
+               </styleClass>
+            </JFXButton>
+            <JFXButton fx:id="facilityButton" minHeight="80.0" minWidth="150.0" prefHeight="80.0" prefWidth="150.0" ripplerFill="#ff007b" text="Facility">
+               <HBox.margin>
+                  <Insets left="25.0" right="25.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="buttons" />
+                  <String fx:value="button6" />
+               </styleClass>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

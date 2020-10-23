@@ -1,0 +1,100 @@
+@import url('Root.css');
+
+@font-face {
+    font-family:BalooTamma2;
+    src: url('../resources/fonts/BalooTamma2-Regular.ttf');
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url('../resources/fonts/Monoton-Regular.ttf');
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url('../resources/fonts/SourceCodePro-Regular.ttf');
+}
+
+.main-background {
+	-fx-background-color: primary-color;
+}
+
+.time {
+	-fx-font-family: 'SourceCodePro';
+	-fx-font-size: 4em;
+	-fx-text-fill: font-color;
+}
+
+.welcome {
+	-fx-font-family: 'Monoton';
+	-fx-font-size: 5em;
+	-fx-text-fill: font-color;
+}
+
+.date {
+	-fx-alignment: center;
+	-fx-font-family: 'BalooTamma2';
+	-fx-font-size: 2em;
+	-fx-text-fill: font-color;
+}
+
+.sub-background {
+	-fx-background-color: white;
+	-fx-border-color: appbar-color;
+    -fx-border-width: 1;
+    -fx-border-style: hidden solid solid solid;
+}
+
+.button1 {
+	-fx-background-color: button-color1;
+}
+
+.button2 {
+	-fx-background-color: button-color2;
+}
+
+.button3 {
+	-fx-background-color: button-color3;
+}
+
+.button4 {
+	-fx-background-color: button-color4;
+}
+
+.button5 {
+	-fx-background-color: button-color5;
+}
+
+.button6 {
+	-fx-background-color: button-color6;
+}
+
+.buttons {
+	-fx-cursor: hand;
+	-fx-font-family: 'BalooTamma2';
+	-fx-font-size: 2em;
+}
+
+.button1:hover {
+	-fx-background-color: button-color1-h;
+}
+
+.button2:hover {
+	-fx-background-color: button-color2-h;
+}
+
+.button3:hover {
+	-fx-background-color: button-color3-h;
+}
+
+.button4:hover {
+	-fx-background-color: button-color4-h;
+}
+
+.button5:hover {
+	-fx-background-color: button-color5-h;
+}
+
+.button6:hover {
+	-fx-background-color: button-color6-h;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane styleClass="web-view" stylesheets="@../css/SubMenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.SubMenuController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="700.0" styleClass="background" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="addButton" prefHeight="50.0" text="Add">
+               <styleClass>
+                  <String fx:value="add-button" />
+                  <String fx:value="buttons" />
+               </styleClass>
+            </JFXButton>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="80.0" styleClass="background" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="heading" prefHeight="80.0" styleClass="heading" text="Staff" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <JFXButton fx:id="backButton" prefHeight="80.0" prefWidth="149.0" text="Back">
+               <styleClass>
+                  <String fx:value="back-button" />
+                  <String fx:value="buttons" />
+               </styleClass>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

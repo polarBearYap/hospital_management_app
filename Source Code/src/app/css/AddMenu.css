@@ -1,0 +1,161 @@
+@import url('Root.css');
+
+@font-face {
+    font-family: Roboto;
+    src: url('../resources/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Alata;
+    src: url('../resources/fonts/Alata-Regular.ttf');
+}
+
+.web-view {
+	-fx-min-width: 700px;
+	-fx-min-height: 500px;
+	-fx-pref-width: 700px;
+	-fx-pref-height: 500px;
+	-fx-max-width: 700px;
+	-fx-max-height: 500px;
+}
+
+.background {
+	-fx-background-color: primary-color;
+}
+
+.heading {
+	-fx-font-family: 'Roboto';
+	-fx-text-fill: font-color;
+	-fx-font-size: 48px;
+	-fx-alignment: CENTER-LEFT;
+	-fx-padding: 0.0 0.0 0.0 50;
+}
+
+.buttons {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+	-fx-font-family: 'Roboto';
+	-fx-text-fill: font-color;
+	-fx-alignment: CENTER;
+	-fx-font-size: 14px;
+}
+
+.buttons:hover {
+	-fx-cursor: hand;
+	-fx-background-color: primary-color-light;
+}
+
+.backButton {
+	-fx-background-color: primary-color;
+	-fx-font-family: 'Roboto';
+	-fx-text-fill: font-color;
+}
+
+.pop-pane {
+	-fx-pref-width: 150px;
+	-fx-pref-height: 100px;
+	-fx-background-color: primary-color;
+	-fx-font-family: 'Roboto';
+}
+
+.back-to-menu-button {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+	-fx-background-color: primary-color;
+	-fx-text-fill: font-color;
+	-fx-pref-width: 150px;
+	-fx-font-size: 14px;
+	-fx-pref-height: 50px;
+	-fx-alignment: CENTER;
+	-fx-font-family: 'Roboto';
+}
+
+.back-to-menu-button:hover {
+	-fx-cursor: hand;
+	-fx-background-color: primary-color-light;
+}
+
+.input-field {
+	-fx-font-size: 14px;
+	-fx-font-family: 'Alata';
+}
+
+.jfx-text-field {
+	-jfx-focus-color: primary-color;
+	-jfx-unfocus-color: primary-color-light;
+	-fx-font-size: 14px;
+	-fx-font-family: 'Alata';
+}
+
+.jfx-toggle-button, .jfx-toggle-node {
+	-jfx-toggle-color: primary-color;
+	-jfx-untoggle-color: primary-color;
+	-jfx-toggle-line-color: primary-color-light;
+	-jfx-untoggle-line-color: primary-color-light;
+	-fx-font-size: 14px;
+	-fx-font-family: 'Alata';
+}
+
+.jfx-text-field:error {
+    -jfx-focus-color: error-color;
+    -jfx-unfocus-color: error-color;
+}
+
+.combo-box-base:error > .jfx-text-field,
+.combo-box-base:error > .jfx-text-field {
+    -jfx-focus-color: error-color;
+    -jfx-unfocus-color: error-color;
+}
+
+.jfx-alert-overlay{
+    -fx-text-fill: white;
+    -fx-pref-width: 700;
+    -fx-pref-height: 500;
+}
+
+.jfx-alert-overlay > .depth-container > .jfx-alert-content-container,
+.jfx-alert-overlay > .jfx-alert-content-container{
+    -fx-background-color: appbar-color;
+    -fx-padding: 0;
+}
+
+.jfx-dialog-layout {
+    -fx-text-fill: white;
+}
+
+.jfx-dialog-layout > .jfx-layout-heading {
+	-fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-padding: 30 0 0 0;
+}
+
+.jfx-dialog-layout > .jfx-layout-actions {
+    -fx-alignment: center;
+    -fx-hgap: 50;
+    -fx-padding: 0 0 30 0;
+}
+
+.jfx-dialog-layout > .jfx-layout-actions .jfx-button {
+    -fx-pref-height: 36;
+    -fx-max-height: 36;
+    -fx-min-width: 64;
+    -fx-background-color: primary-color;
+    -fx-text-fill: white;
+}
+
+.jfx-dialog-layout > .jfx-layout-actions .jfx-button:hover {
+    -fx-background-color: primary-color-light;
+}
+
+.jfx-dialog-layout > .jfx-layout-body {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    -fx-min-width: 0;
+    -fx-min-height: 30;
+    -fx-padding: 0;
+}
+
+.dialog_desc {
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+}

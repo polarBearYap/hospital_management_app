@@ -1,0 +1,65 @@
+@import url('Root.css');
+
+.web-view {
+	-fx-min-width: 700px;
+	-fx-min-height: 530px;
+	-fx-pref-width: 700px;
+	-fx-pref-height: 530px;
+	-fx-max-width: 700px;
+	-fx-max-height: 530px;
+}
+
+.appbar {
+	-fx-background-color: appbar-color;
+	-fx-min-width: 700px;
+	-fx-min-height: 30px;
+	-fx-pref-width: 700px;
+	-fx-pref-height: 30px;
+	-fx-max-width: 700px;
+	-fx-max-height: 30px;
+}
+
+.titlebar {
+	-fx-min-width: 420px;
+	-fx-min-height: 50px;
+	-fx-pref-width: 420px;
+	-fx-pref-height: 50px;
+	-fx-max-width: 420px;
+	-fx-max-height: 50px;
+}
+
+.iconbar {
+	-fx-min-width: 180px;
+	-fx-min-height: 50px;
+	-fx-pref-width: 180px;
+	-fx-pref-height: 50px;
+	-fx-max-width: 180px;
+	-fx-max-height: 50px;
+}
+
+.buttons {
+	-fx-cursor: hand;
+}
+
+.not-round-buttons {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+}
+
+.hover-button {
+	-fx-padding: 3px;
+}
+
+.hover-button:hover {
+	-fx-background-color: primary-color-light;
+}
+
+.jfx-popup,
+.jfx-popup .jfx-popup-container,
+.jfx-popup .jfx-list-view {
+    -fx-background-color:primary-color;
+}
+
+.jfx-scroll-pane {
+	-fx-background-color:font-color;
+}

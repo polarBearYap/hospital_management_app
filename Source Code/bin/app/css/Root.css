@@ -1,0 +1,21 @@
+.root {
+	appbar-color: #003c8f;
+	primary-color: #1565c0;
+	primary-color-light: #5e92f3;
+	font-color: #ffffff;
+	error-color: #D34336;
+
+	button-color1: #ffbfa6;
+	button-color2: #c3d1e8;
+	button-color3: #ffda83;
+	button-color4: #f6fda2;
+	button-color5: #aad3d3;
+	button-color6: #f5bad5;
+
+	button-color1-h: #ca8f77;
+	button-color2-h: #92a0b6;
+	button-color3-h: #caa954;
+	button-color4-h: #c2ca72;
+	button-color5-h: #7aa2a2;
+	button-color6-h: #c28aa4;
+}

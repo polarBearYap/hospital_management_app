@@ -1,0 +1,52 @@
+@import url('Root.css');
+
+@font-face {
+    font-family: Roboto;
+    src: url('../resources/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: BalooTamma2;
+    src: url('../resources/fonts/BalooTamma2-Bold.ttf');
+}
+
+.web-view {
+	-fx-min-width: 700px;
+	-fx-min-height: 500px;
+	-fx-pref-width: 700px;
+	-fx-pref-height: 500px;
+	-fx-max-width: 700px;
+	-fx-max-height: 500px;
+}
+
+.background {
+	-fx-background-color: primary-color;
+}
+
+.heading {
+	-fx-font-family: 'BalooTamma2';
+	-fx-text-fill: font-color;
+	-fx-font-size: 48px;
+	-fx-alignment: CENTER;
+}
+
+.buttons {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+	-fx-font-family: 'Roboto';
+	-fx-text-fill: font-color;
+	-fx-alignment: CENTER;
+}
+
+.buttons:hover {
+	-fx-cursor: hand;
+	-fx-background-color: primary-color-light;
+}
+
+.back-button {
+	-fx-font-size: 14px;
+}
+
+.add-button {
+	-fx-font-size: 14px;
+}
